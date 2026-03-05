@@ -1,0 +1,10 @@
+{
+  "name": "pi-dash",
+  "version": "1.0.0",
+  "description": "Terminal system dashboard for pi — CPU, memory, processes, disk, network at a glance",
+  "pi-extension": "extensions/pi-dash.ts",
+  "keywords": ["pi-extension", "dashboard", "system", "monitor", "terminal"],
+  "author": "artale",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/arosstale/pi-dash.git" }
+}
