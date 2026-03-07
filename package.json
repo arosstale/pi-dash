@@ -1,6 +1,6 @@
 {
   "name": "pi-dash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Terminal system dashboard for pi — CPU, memory, processes, disk, network at a glance",
   "pi-extension": "extensions/pi-dash.ts",
   "keywords": [
