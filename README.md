@@ -1,18 +1,15 @@
-# pi-dash 📊
-
-System dashboard for [pi](https://github.com/nicobailon/pi-mono).
-
+# pi-dash
+Live TUI dashboard widget for Pi. Shows tokens, context %, uptime, tool stats above the editor.
 ## Install
 ```bash
-npm install -g pi-dash
+pi install npm:@artale/pi-dash
 ```
-
-## Use
+## Commands
 ```
-/dash
+/dash            — toggle on/off
+/dash expand     — show detailed stats
+/dash reset      — reset counters
 ```
-
-Shows: CPU, memory, disk, uptime, Node version, git branch/status, top processes.
-Auto-refreshes every 3 seconds. Cross-platform (Windows + Unix).
-
-Controls: R=refresh Q=quit
+Auto-updates on every message and tool call. Uses `ctx.ui.setWidget()` for persistent display.
+## License
+MIT
